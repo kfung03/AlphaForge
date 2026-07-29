@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Large model files
+*.h5
+*.keras
+*.pt
+*.pth
+*.pickle
+
+# Logs
+*.log
+
+# Temporary
+temp/
+tmp/
+
+# Raw datasets (keep sample data only)
+data/raw/
+
+# Build artifacts
+build/
+dist/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Training artifacts
+**/*_history.csv
+**/*thresholds.csv
+
+*.npy
