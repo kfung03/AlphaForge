@@ -46,3 +46,5 @@ dist/
 **/*thresholds.csv
 
 *.npy
+
+images/
